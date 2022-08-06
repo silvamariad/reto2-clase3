@@ -24,4 +24,14 @@
 
 
 #mover el archivo file2.txt de la carpeta dummy a un nivel por encima empty  sin cambiarle el nombre 
-mv file2.txt ../dummy
+#mv file2.txt ../dummy
+
+read -p "Escriba por favor: " directorio
+
+if [ -d $directorio ]
+then
+    num_fichero=$(ls -l $directorio | wc -l)
+    echo "El numero de directorio" $directorio " es " $num_fichero
+else
+    echo "Que me gusta bash!!!!"
+fi #cierre
