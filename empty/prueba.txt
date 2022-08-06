@@ -1,0 +1,4 @@
+prueba mover de la carpeta foo  a empty
+
+
+#mv prueba.txt empty
