@@ -6,6 +6,6 @@
 #mkdir foo/dummy
 #mkdir foo/empty
 
-mv file2.txt -t ./foo/empty
+mv file2.txt ../empty
 
 
